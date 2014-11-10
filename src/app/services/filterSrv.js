@@ -19,7 +19,7 @@ define([
     };
 
     // For convenience
-    var ejs = ejsResource(config.elasticsearch);
+    var ejs = ejsResource(config);
 
     // Save a reference to this
     var self = this;
